@@ -1,7 +1,1 @@
-## Sales
-
-Sales product
-
-#### License
-
-MIT
+# Sales-Insurance

@@ -1,0 +1,91 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-03-19 17:11:10.553109",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "customer",
+  "column_break_o40p6",
+  "year",
+  "premium_section",
+  "own_damage_premium",
+  "gst",
+  "final_premium",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "premium_section",
+   "fieldtype": "Section Break",
+   "label": "Premium"
+  },
+  {
+   "fieldname": "own_damage_premium",
+   "fieldtype": "Data",
+   "label": "Own Damage Premium"
+  },
+  {
+   "fieldname": "gst",
+   "fieldtype": "Data",
+   "label": "Gst"
+  },
+  {
+   "fieldname": "final_premium",
+   "fieldtype": "Data",
+   "label": "Final Premium"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Insurance Fare",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "year",
+   "fieldtype": "Data",
+   "label": "Year"
+  },
+  {
+   "fieldname": "column_break_o40p6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "customer",
+   "fieldtype": "Select",
+   "label": "Customer",
+   "options": "\nCust-001\nCust-002\nCust-003\nCust-004\nCust-005"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2023-03-19 17:55:53.898382",
+ "modified_by": "Administrator",
+ "module": "Sales",
+ "name": "Insurance Fare",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "cancel": 1,
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "select": 1,
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}
